@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="/styles.css" />
+
+    <!--Google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Fot Awesome -->
+    <script
+      src="https://kit.fontawesome.com/4cacbe9302.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="">
+    <div class="bg-stone-900 shadow-md p-3">
+      <nav class="w-full flex items-center justify-between md:px-12 py-4">
+        <a href="#" class="text-5xl text-amber-300"
+          ><i class="fa-brands fa-microblog"></i
+        ></a>
+
+        <button class="text-3xl text-white">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+      <section class="py-8 md:py-24 md:px-12 md:flex md:items-center">
+        <div class="flex-1">
+          <div class="w-full md:max-w-2xl">
+            <h1 class="text-white text-5xl md:text-8xl font-bold">
+              What's <span class="text-gray-500">the</span> New<span
+                class="text-gray-500"
+                >s</span
+              >
+              Today?
+            </h1>
+            <p class="text-gray-50 text-lg md:text-xl mt-8">
+              Discover and read the
+              <span class="text-gray-300"
+                >latest news from <br class="hidden md:block" />
+                all around the world</span
+              >
+            </p>
+          </div>
+        </div>
+        <div class="flex-1 flex justify-end">
+          <div
+            class="w-full md:max-w-sm bg-white rounded-3xl shadow-xl p-4 mt-10 md:mt-0"
+          >
+            <div class="banner px-4 py-6 rounded-3xl md:py-20 h-32 md:h-0">
+              <!-- <h3 class="text-white text-2xl font-bold">Get Notified</h3> -->
+            </div>
+
+            <form class="py-4 px-4">
+              <input
+                type="text"
+                placeholder="Email address"
+                class="w-full font-semibold tracking-wide border-gray-200 border-b-2 py-3"
+              />
+
+              <button
+                class="w-full mt-4 py-4 bg-blue-600 hover:bg-blue-500 transform transition easedelay-75 hover:-translate-y-0.5 rounded-2xl text-white text-base font-semibold"
+              >
+                Notify me
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <main class="flex px-4 md:px-16 py-10 bg-neutral-100">
+      <!-- <section class="blog-posts bg-neutral-100 px-4 md:px-12 py-6 grid grid-1 md:grid-cols-1 gap-4">
+
+
+    </section> -->
+      <aside class="w-full p-2 md:p-6 flex flex-col md:flex-row justify-start relative">
+       <div class="w-full md:w-1/2 ">
+        <h3 class="border-l-4 border-gray-400 pl-6 text-2xl font-bold">Latest Blog Post</h3>
+        <section class="todo-list w-full">
+
+        </section>
+       </div>
+
+        <div class="mt-10 md:mt-0">
+          <div class="w-full ">
+            <h2 class="text-2xl font-bold text-center">Topics</h2>
+
+            <div class="bg-white w-full rounded-xl shadow-sm hover:shadow-lg transform transition ease hover:-translate-y-0.5 pr-20 mt-6 flex items-center">
+              <span class="bg-gray-300 hover:bg-blue-400 w-20 px-2 py-3 rounded-l-xl flex items-center justify-center text-2xl">
+                💬
+              </span>
+              <h1 class="text-xl text-gray-700 font-bold pl-4">Database</h1>
+            </div>
+
+
+            <div class="bg-white w-full rounded-xl shadow-sm hover:shadow-lg transform transition ease hover:-translate-y-0.5 pr-20 mt-6 flex items-center">
+              <span class="bg-gray-300 hover:bg-blue-400 w-20 px-2 py-3 rounded-l-xl flex items-center justify-center text-2xl">
+                💬
+              </span>
+              <h1 class="text-xl text-gray-700 font-bold pl-4">Accessibility</h1>
+            </div>
+
+
+            <div class="bg-white w-full rounded-xl shadow-sm hover:shadow-lg transform transition ease hover:-translate-y-0.5 pr-20 mt-6 flex items-center">
+              <span class="bg-gray-300 hover:bg-blue-400 w-20 px-2 py-3 rounded-l-xl flex items-center justify-center text-2xl">
+                💬
+              </span>
+              <h1 class="text-xl text-gray-700 font-bold pl-4">Web Development</h1>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <footer
+      class="text-stone-300 bg-stone-900 py-16 px-4 flex items-center justify-center"
+    >
+      <p class="font-semibold">&copysr; West Blog 2022</p>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

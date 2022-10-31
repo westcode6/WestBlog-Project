@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+
+
+
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  }
+
+  p {
+    font-family: "Comfortaa", cursive;
+  }
+
+.banner {
+  background-image: url(/dist/images/shoes.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+
+  @tailwind utilities;
