@@ -15,7 +15,7 @@
     />
 
     <link
-      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;500;700;800;900&display=swap"
       rel="stylesheet"
     />
 
@@ -30,7 +30,7 @@
       <nav class="w-full flex items-center justify-between md:px-12 py-4">
         <a href="#" class="text-5xl text-amber-300"
           ><i class="fa-brands fa-microblog"></i
-        ></a>
+        > <span class="text-2xl font-bold">Westy</span></a>
 
         <button class="text-3xl text-white">
           <i class="fa-solid fa-bars"></i>
@@ -87,22 +87,24 @@
 
     </section> -->
       <aside class="w-full p-2 md:p-6 flex flex-col md:flex-row justify-start relative">
-       <div class="w-full md:w-1/2 ">
+       <div class="w-full md:w-1/2">
         <h3 class="border-l-4 border-gray-400 pl-6 text-2xl font-bold">Latest Blog Post</h3>
         <section class="todo-list w-full">
 
         </section>
        </div>
 
-        <div class="mt-10 md:mt-0">
-          <div class="w-full ">
+        <div class="mt-10 md:mt-0 md:w-1/2">
+         <div class="w-full md:w-72 m-auto  flex  flex-col justify-end">
+
+          <div class="">
             <h2 class="text-2xl font-bold text-center">Topics</h2>
 
             <div class="bg-white w-full rounded-xl shadow-sm hover:shadow-lg transform transition ease hover:-translate-y-0.5 pr-20 mt-6 flex items-center">
               <span class="bg-gray-300 hover:bg-blue-400 w-20 px-2 py-3 rounded-l-xl flex items-center justify-center text-2xl">
                 💬
               </span>
-              <h1 class="text-xl text-gray-700 font-bold pl-4">Database</h1>
+              <h1 class="text-gray-700 text-md font-bold pl-4">Database</h1>
             </div>
 
 
@@ -110,7 +112,7 @@
               <span class="bg-gray-300 hover:bg-blue-400 w-20 px-2 py-3 rounded-l-xl flex items-center justify-center text-2xl">
                 💬
               </span>
-              <h1 class="text-xl text-gray-700 font-bold pl-4">Accessibility</h1>
+              <h1 class="text-md text-gray-700 font-bold pl-4">Accessibility</h1>
             </div>
 
 
@@ -118,17 +120,79 @@
               <span class="bg-gray-300 hover:bg-blue-400 w-20 px-2 py-3 rounded-l-xl flex items-center justify-center text-2xl">
                 💬
               </span>
-              <h1 class="text-xl text-gray-700 font-bold pl-4">Web Development</h1>
+              <h1 class="text-md text-gray-700 font-bold pl-4">Web Development</h1>
             </div>
           </div>
+
+          <!-- TAGS -->
+          <div class="mt-12">
+            <h2 class="text-2xl font-bold text-center">Tags</h2>
+
+            <div class="bg-white rounded-md shadow-md p-6 mt-4 flex flex-wrap space-x-2">
+              <span class="bg-gray-400 text-gray-50 rounded-md hover:bg-gray-500 transform transition hover:-translate-x-0.5 shadow-sm p-1 m-1 text-xs font-semibold">#mongodb</span>
+              <span class="bg-gray-400 text-gray-50 rounded-md hover:bg-gray-500 transform transition hover:-translate-x-0.5 shadow-sm p-1 m-1 text-xs font-semibold">#nodeJs</span>
+              <span class="bg-gray-400 text-gray-50 rounded-md hover:bg-gray-500 transform transition hover:-translate-x-0.5 shadow-sm p-1 m-1 text-xs font-semibold">#ally8</span>
+              <span class="bg-gray-400 text-gray-50 rounded-md hover:bg-gray-500 transform transition hover:-translate-x-0.5 shadow-sm p-1 m-1 text-xs font-semibold">#webperf</span>
+              <span class="bg-gray-400 text-gray-50 rounded-md hover:bg-gray-500 transform transition hover:-translate-x-0.5 shadow-sm p-1 m-1 text-xs font-semibold">#inclusion</span>
+              <span class="bg-gray-400 text-gray-50 rounded-md hover:bg-gray-500 transform transition hover:-translate-x-0.5 shadow-sm p-1 m-1 text-xs font-semibold">#performance</span>
+              <span class="bg-gray-400 text-gray-50 rounded-md hover:bg-gray-500 transform transition hover:-translate-x-0.5 shadow-sm p-1 m-1 text-xs font-semibold">#mobility</span>
+              <span class="bg-gray-400 text-gray-50 rounded-md hover:bg-gray-500 transform transition hover:-translate-x-0.5 shadow-sm p-1 m-1 text-xs font-semibold">#opitimize</span>
+            </div>
+          </div>
+
+
+           <!-- LET'S TALK SECTION' -->
+           <div class="mt-12">
+            <h2 class="text-2xl font-bold text-center">Let's Talk</h2>
+
+            <div class="bg-white rounded-md shadow-md p-6 mt-4">
+                <p class="text-sm text-gray-600">Do you want to learn more about how I can help your company overcome problems? Let us have a conversation.</p>
+
+                <div class="flex justify-center space-x-4 mt-4">
+                  <a href="#" class="w-12 h-12 flex items-center justify-center text-2xl rounded-full bg-gray-200 border hover:text-blue-600"><i class="fa-brands fa-facebook"></i></a>
+
+                  <a href="#" class="w-12 h-12 flex items-center justify-center text-2xl rounded-full bg-gray-200 border text-blue-500 hover:text-blue-600"><i class="fa-brands fa-square-twitter"></i></a>
+
+                  <a href="#" class="w-12 h-12 flex items-center justify-center text-2xl rounded-full bg-gray-200 border hover:text-blue-600"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+            </div>
+          </div>
+
+
+
+
+            <!-- NEWS LETTER -->
+            <div class="mt-12">
+              <h2 class="text-2xl font-bold text-center">Newsletter</h2>
+
+              <div class="bg-white rounded-md shadow-md p-6 mt-4">
+                  <p class="text-sm text-gray-600">Subscribe to our newsletter to be among the first to keep up with the latest updates.</p>
+
+                  <div class="flex justify-center space-x-4 mt-4">
+                      <form class="flex flex-col justify-center">
+                        <input type="text" class="border-2 border-gray-200 rounded-md px-3 py-2" placeholder="Email address">
+
+                        <button class="bg-blue-500 hover:bg-blue-600 px-4 py-3 text-base text-white font-semibold rounded-full mt-4" type="submit">Subscribe</button>
+                      </form>
+                  </div>
+              </div>
+            </div>
+         </div>
         </div>
       </aside>
     </main>
 
     <footer
-      class="text-stone-300 bg-stone-900 py-16 px-4 flex items-center justify-center"
+      class="text-stone-300 bg-stone-900 py-16 px-4 flex flex-col items-center justify-center"
     >
-      <p class="font-semibold">&copysr; West Blog 2022</p>
+    <div class="flex justify-center space-x-4">
+      <a href="#" class="w-10 h-10 flex items-center justify-center text-2xl rounded-full  bg-stone-700 hover:bg-stone-200 border text-stone-100 hover:text-stone-600"><i class="fa-brands fa-facebook"></i></a>
+
+      <a href="#" class="w-10 h-10 flex items-center justify-center text-2xl rounded-full  bg-stone-700 hover:bg-stone-200 border text-stone-100 hover:text-stone-600"><i class="fa-brands fa-square-twitter"></i></a>
+
+      <a href="#" class="w-10 h-10 flex items-center justify-center text-2xl rounded-full  bg-stone-700 hover:bg-stone-200 border text-stone-100 hover:text-stone-600"><i class="fa-brands fa-square-instagram"></i></a>
+    </div>
+      <p class="font-semibold mt-4">&copysr; West Blog 2022</p>
     </footer>
 
     <script src="./app.js"></script>
