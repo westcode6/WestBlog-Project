@@ -18,7 +18,8 @@ closeMobile.addEventListener("click", closeMobileNav);
 function showMobileNav(e) {
   e.preventDefault();
   mobileNav.classList.remove("hidden");
-  mobileNav.classList.remove("-left-96");
+  mobileNav.classList.add("slideIn");
+  mobileNav.classList.remove("-left-full");
   mobileNav.classList.add("left-0");
 }
 
