@@ -1,0 +1,30 @@
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    }
+
+    p {
+      font-family: "Comfortaa", cursive;
+    }
+
+    .topic-container {
+      @apply bg-white w-full rounded-xl shadow-sm hover:shadow-lg transform transition ease hover:-translate-y-0.5 pr-20 mt-6 flex items-center
+    }
+    .topic-icon {
+      @apply bg-gray-300 hover:bg-blue-400 w-20 px-2 py-3 rounded-l-xl flex items-center justify-center text-2xl
+    }
+    .topic-title {
+      @apply text-md text-gray-700 font-bold pl-4
+    }
+
+    .tags-container {
+      @apply bg-white rounded-md shadow-md p-6 mt-4 flex flex-wrap space-x-2
+    }
+
+    .tag {
+      @apply bg-gray-400 text-gray-50 rounded-md hover:bg-gray-500 transform transition hover:-translate-x-0.5 shadow-sm p-1 m-1 text-xs font-semibold
+    }
+
+    .footer-icon {
+      @apply w-12 h-12 flex items-center justify-center text-2xl rounded-full bg-stone-700 hover:bg-stone-200 border border-stone-700 text-stone-100 hover:text-stone-600
+    }
