@@ -25,6 +25,26 @@
     ></script>
   </head>
   <body class="">
+    <div id="modal" class="hidden h-full overflow-scroll w-full fixed z-10 bg-teal-700  pb-10">
+      <div class="flex  justify-end text-white">
+        <button id="closeBlog" class="text-2xl font-bold pr-8 mt-3">x</button>
+      </div>
+
+
+
+      <!-- <section
+        id="modal-list"
+        class="w-full px-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4 mt-10"
+      >
+    <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique maiores dolorum cupiditate iste, aut distinctio nostrum. Enim recusandae quo quia.</p>
+
+    <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique maiores dolorum cupiditate iste, aut distinctio nostrum. Enim recusandae quo quia.</p>
+
+    <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique maiores dolorum cupiditate iste, aut distinctio nostrum. Enim recusandae quo quia.</p>
+
+    </section> -->
+    </div>
+
     <div class="bg-stone-900 shadow-md p-3">
       <nav class="w-full flex justify-between md:px-12 py-4">
         <a href="#" class="text-5xl text-amber-500"
@@ -35,85 +55,81 @@
         <button id="hambugger" class="text-3xl text-white">
           <i class="fa-solid fa-bars"></i>
         </button>
-
-
-
       </nav>
 
-      <div id="mobileNav" class=" mobile-nav h-screen overflow-scroll w-full z-10 top-0 -left-full fixed bg-stone-900 py-10">
-
-        <button id="closeMobile" class="text-3xl float-right mr-10 text-white ">
+      <div
+        id="mobileNav"
+        class="mobile-nav h-screen overflow-scroll w-full z-10 top-0 -left-full fixed bg-stone-900 py-10"
+      >
+        <button id="closeMobile" class="text-3xl float-right mr-10 text-white">
           <i class="fa-solid fa-xmark"></i>
         </button>
-      <div class="w-full px-6 md:px-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-
-
-        <div class="mt-12 md:mt-24 py-10 px-4 rounded-2xl shadow-2xl bg-stone-800">
-          <h1 class="text-4xl text-stone-300 font-bold font-sans">
-            <a href="#" class="text-5xl text-amber-500"
-          ><i class="fa-brands fa-microblog"></i
-          ><span class="text-2xl font-bold pl-1">Westy</span></a
+        <div
+          class="w-full px-6 md:px-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
         >
-          </h1>
-          <p class="text-stone-400 text-sm leading-7 py-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad obcaecati aspernatur eveniet illum numquam dolorum. In vero debitis veniam atque placeat aliquam dolores at perferendis consequuntur.</p>
-         </div>
-
-         <div class="md:mt-24">
-          <img src="./images/dev.jpg" class="w-full h-full object-cover object-center rounded-lg shadow-lg" alt="">
+          <div
+            class="mt-12 md:mt-24 py-10 px-4 rounded-2xl shadow-2xl bg-stone-800"
+          >
+            <h1 class="text-4xl text-stone-300 font-bold font-sans">
+              <a href="#" class="text-5xl text-amber-500"
+                ><i class="fa-brands fa-microblog"></i
+                ><span class="text-2xl font-bold pl-1">Westy</span></a
+              >
+            </h1>
+            <p class="text-stone-400 text-sm leading-7 py-10">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
+              obcaecati aspernatur eveniet illum numquam dolorum. In vero
+              debitis veniam atque placeat aliquam dolores at perferendis
+              consequuntur.
+            </p>
           </div>
 
-         <div class="md:mt-24 bg-stone-800 rounded-2xl shadow-2xl px-4 py-10">
-          <h1 class="text-2xl text-amber-500 font-bold font-sans mb-4">CONTACT</h1>
-          <form>
-            <input type="text" class="w-full bg-stone-700 px-4 py-2 my-4 rounded-md shadow-lg text-stone-400" placeholder="Email address">
+          <div class="md:mt-24">
+            <img
+              src="./images/dev.jpg"
+              class="w-full h-full object-cover object-center rounded-lg shadow-lg"
+              alt=""
+            />
+          </div>
 
+          <div class="md:mt-24 bg-stone-800 rounded-2xl shadow-2xl px-4 py-10">
+            <h1 class="text-2xl text-amber-500 font-bold font-sans mb-4">
+              CONTACT
+            </h1>
+            <form>
+              <input
+                type="text"
+                class="w-full bg-stone-700 px-4 py-2 my-4 rounded-md shadow-lg text-stone-400"
+                placeholder="Email address"
+              />
 
-              <textarea name="" class="w-full bg-stone-700 px-4 py-2 my-4 rounded-md shadow-lg text-stone-400" id="" cols="30" rows="10" placeholder="Enter your message"></textarea>
+              <textarea
+                name=""
+                class="w-full bg-stone-700 px-4 py-2 my-4 rounded-md shadow-lg text-stone-400"
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Enter your message"
+              ></textarea>
 
-              <button class="bg-amber-500 hover:bg-amber-600 text-center text-white px-4 py-3 rounded-lg shadow-lg font-semibold uppercase mt-4">Send</button>
-          </form>
-         </div>
-
-
-
+              <a href="./blog.html"
+                class="block bg-amber-500 hover:bg-amber-600 text-center text-white px-4 py-3 rounded-lg shadow-lg font-semibold uppercase mt-4"
+              >
+                Send
+            </a>
+            </form>
+          </div>
+        </div>
       </div>
-      </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
       <section
         class="py-12 md:py-24 md:px-12 flex flex-col lg:flex-row md:items-center"
       >
         <div class="flex-1 px-2">
           <div
-            class="w-full overflow-hidden md:max-w-2xl md:m-auto text-left md:text-center lg:text-left"
+            class="w-full overflow-hidden sm:m-auto md:max-w-2xl text-left md:text-center lg:text-left"
           >
-            <h1 class="text-white text-5xl md:text-8xl font-bold">
+            <h1 class="text-white text-5xl sm:text-6xl md:text-8xl font-bold">
               What's <span class="text-stone-500">the</span> New<span
                 class="text-stone-500"
                 >s</span
@@ -123,7 +139,7 @@
             <p class="text-gray-200 text-lg md:text-xl mt-8">
               Discover and read the
               <span class="text-stone-300"
-                >latest news from <br class="hidden md:block" />
+                >latest news from <br class="hidden lg:block" />
                 all around the world</span
               >
             </p>
@@ -133,11 +149,11 @@
           class="w-full mt-6 lg:mt-0 px-2 lg:px-0 flex-1 flex justify-start md:justify-center lg:justify-end"
         >
           <div
-            class="w-full sm:w-1/3 md:w-10/12 lg:w-2/3 bg-white rounded-3xl shadow-xl p-2 mt-10 md:mt-0"
+            class="w-full lg:w-2/3 bg-white rounded-3xl shadow-2xl p-2 mt-10 md:mt-0"
           >
             <div class="">
               <img
-                src="./images/learn.jfif"
+                src="./images/shoppers.jpg"
                 class="w-full h-36 object-cover object-center rounded-xl shadow-md"
                 alt=""
               />
@@ -150,162 +166,182 @@
                 class="w-full font-semibold tracking-wide border-gray-200 border-b-2 py-3 px-3"
               />
 
-              <button
-                class="w-full mt-4 py-4 bg-amber-600 hover:bg-blue-500 transform transition easedelay-75 hover:-translate-y-0.5 rounded-2xl text-white text-base font-semibold"
+              <a href="./blog.html"
+                class=" text-center block w-full mt-4 py-4 bg-blue-600 hover:bg-opacity-90 transform hover:scale-95 transition ease-in-out duration-500 rounded-2xl text-white text-base font-semibold"
               >
                 Notify me
-              </button>
+            </a>
             </form>
           </div>
         </div>
       </section>
     </div>
 
-    <main class="w-full px-4 md:px-16  bg-neutral-100">
-      <section class="blog-posts  px-2 md:px-12 py-6 grid grid-1 md:grid-cols-1 gap-4">
-        <!-- BLOG POST COMES HERE -->
-      </section>
-      <aside
-        class="w-full p-2 md:p-6 flex flex-col lg:flex-row justify-start relative"
-      >
-        <div class="w-full lg:w-1/2">
-          <h3 class="border-l-4 border-gray-400 pl-6 text-2xl font-bold">
+    <main
+      class="w-full px-4 md:px-16 py-10 lg:py-24 bg-stone-50 flex flex-col lg:flex-row"
+    >
+      <div class="w-full flex-1">
+        <div class="w-full">
+          <h3 class="border-l-4 border-amber-500 pl-4 text-3xl font-bold">
             Latest Blog Post
           </h3>
           <section
-            class="todo-list w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4"
-          ></section>
-        </div>
-
-        <div class="mt-20 lg:mt-0 lg:w-1/2">
-          <div
-            class="w-full sm:w-80 md:w-96 lg:w-72 m-auto flex flex-col justify-end"
+            id="blog-list"
+            class="w-full mt-6 px-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4"
           >
-            <div class="">
-              <h2 class="text-2xl font-bold text-center">Topics</h2>
+            <!-- <div class="w-full bg-white rounded-2xl shadow-md hover:shadow-md md:flex mt-8 transform transition ease hover:-translate-y-11 duration-700 p-3">
+          <div class="w-full">
+            <img src="./images/shoppers.jpg"  class="w-full  lg:w-96 shrink-0 h-40 md:h-52 lg:h-full object-cover object-center rounded-xl shadow-md" alt="" />
+          </div>
+            <div class="w-full p-6 order-last lg:order-last">
+              <button class="bg-gray-200 text-gray-800 text-xs font-semibold px-4 py-2 rounded-md  mb-3">Data Base</button>
+            <h1 class="text-3xl sm:text-3xl font-bold hover:underline>
+            <a href="#" ">
+            ${posts[i].title}
+            </a>
+            </h1>
+              <p class="my-2 text-xl sm:text-xl   text-stone-500">
+              ${postBody}
+              </p>
 
-              <div class="topic-container">
-                <span class="topic-icon"> 💬 </span>
-                <h1 class="topic-title">Database</h1>
-              </div>
 
-              <div class="topic-container">
-                <span class="topic-icon"> 💬 </span>
-                <h1 class="topic-title">Accessibility</h1>
-              </div>
+              <div class="mt-6 flex">
+                <img src="./images/tadmall.jpg" class="object-cover object-center w-10 h-10 rounded-full shadow-md" alt="">
 
-              <div class="topic-container">
-                <span class="topic-icon"> 💬 </span>
-                <h1 class="topic-title">Web Development</h1>
-              </div>
-            </div>
-
-            <!-- TAGS -->
-            <div class="mt-12">
-              <h2 class="text-2xl font-bold text-center">Tags</h2>
-
-              <div class="tags-container">
-                <span class="tag">#mongodb</span>
-                <span class="tag">#nodeJs</span>
-                <span class="tag">#ally8</span>
-                <span class="tag">#webperf</span>
-                <span class="tag">#inclusion</span>
-                <span class="tag">#performance</span>
-                <span class="tag">#mobility</span>
-                <span class="tag">#opitimize</span>
-              </div>
-            </div>
-
-            <!-- LET'S TALK SECTION' -->
-            <div class="mt-12">
-              <h2 class="text-2xl font-bold text-center">Let's Talk</h2>
-
-              <div class="bg-white rounded-md shadow-md p-6 mt-4">
-                <p class="text-sm text-gray-600">
-                  Do you want to learn more about how I can help your company
-                  overcome problems? Let us have a conversation.
-                </p>
-
-                <div class="flex justify-center space-x-4 mt-4">
-                  <a
-                    href="#"
-                    class="w-12 h-12 flex items-center justify-center text-2xl rounded-full bg-gray-200 border hover:text-blue-600"
-                    ><i class="fa-brands fa-facebook"></i
-                  ></a>
-
-                  <a
-                    href="#"
-                    class="w-12 h-12 flex items-center justify-center text-2xl rounded-full bg-gray-200 border text-blue-500 hover:text-blue-600"
-                    ><i class="fa-brands fa-square-twitter"></i
-                  ></a>
-
-                  <a
-                    href="#"
-                    class="w-12 h-12 flex items-center justify-center text-2xl rounded-full bg-gray-200 border hover:text-blue-600"
-                    ><i class="fa-brands fa-square-instagram"></i
-                  ></a>
+                <div class="pl-4">
+                  <h4 class="text-sm text-stone-500 font-bold">WestCode East</h4>
+                  <p class="text-xs text-gray-500 mt-2">Jan 17, 2022. <span>3min</span></p>
                 </div>
               </div>
             </div>
+          </div> -->
+          </section>
+        </div>
+      </div>
 
-            <!-- NEWS LETTER -->
-            <div class="mt-12">
-              <h2 class="text-2xl font-bold text-center">Newsletter</h2>
+      <div class="mt-20 lg:mt-0 lg:w-1/2 justify-end">
+        <div
+          class="w-full sm:w-80 md:w-96 lg:w-72 m-auto flex flex-col justify-end"
+        >
+          <div class="">
+            <h2 class="text-2xl font-bold text-center">Topics</h2>
 
-              <div class="bg-white rounded-md shadow-md p-6 mt-4">
-                <p class="text-sm text-gray-600">
-                  Subscribe to our newsletter to be among the first to keep up
-                  with the latest updates.
-                </p>
+            <div class="topic-container">
+              <span class="topic-icon"> 💬 </span>
+              <h1 class="topic-title">Database</h1>
+            </div>
 
-                <div class="flex justify-center space-x-4 mt-4">
-                  <form class="flex flex-col justify-center">
-                    <input
-                      type="text"
-                      class="border-2 border-gray-200 rounded-md px-3 py-2"
-                      placeholder="Email address"
-                    />
+            <div class="topic-container">
+              <span class="topic-icon"> 💬 </span>
+              <h1 class="topic-title">Accessibility</h1>
+            </div>
 
-                    <button
-                      class="bg-blue-500 hover:bg-blue-600 px-4 py-3 text-base text-white font-semibold rounded-full mt-4"
-                      type="submit"
-                    >
-                      Subscribe
-                    </button>
-                  </form>
-                </div>
+            <div class="topic-container">
+              <span class="topic-icon"> 💬 </span>
+              <h1 class="topic-title">Web Development</h1>
+            </div>
+          </div>
+
+          <!-- TAGS -->
+          <div class="mt-12">
+            <h2 class="text-2xl font-bold text-center">Tags</h2>
+
+            <div class="tags-container">
+              <span class="tag">#mongodb</span>
+              <span class="tag">#nodeJs</span>
+              <span class="tag">#ally8</span>
+              <span class="tag">#webperf</span>
+              <span class="tag">#inclusion</span>
+              <span class="tag">#performance</span>
+              <span class="tag">#mobility</span>
+              <span class="tag">#opitimize</span>
+            </div>
+          </div>
+
+          <!-- LET'S TALK SECTION' -->
+          <div class="mt-12">
+            <h2 class="text-2xl font-bold text-center">Let's Talk</h2>
+
+            <div class="bg-white rounded-md shadow-md p-6 mt-4">
+              <p class="text-sm text-gray-600">
+                Do you want to learn more about how I can help your company
+                overcome problems? Let us have a conversation.
+              </p>
+
+              <div class="flex justify-center space-x-4 mt-4">
+                <a
+                  href="#"
+                  class="w-12 h-12 flex items-center justify-center text-2xl rounded-full bg-gray-200 border hover:text-blue-600"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+
+                <a
+                  href="#"
+                  class="w-12 h-12 flex items-center justify-center text-2xl rounded-full bg-gray-200 border text-blue-500 hover:text-blue-600"
+                  ><i class="fa-brands fa-square-twitter"></i
+                ></a>
+
+                <a
+                  href="#"
+                  class="w-12 h-12 flex items-center justify-center text-2xl rounded-full bg-gray-200 border hover:text-blue-600"
+                  ><i class="fa-brands fa-square-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- NEWS LETTER -->
+          <div class="mt-12">
+            <h2 class="text-2xl font-bold text-center">Newsletter</h2>
+
+            <div class="bg-white rounded-md shadow-md p-6 mt-4">
+              <p class="text-sm text-gray-600">
+                Subscribe to our newsletter to be among the first to keep up
+                with the latest updates.
+              </p>
+
+              <div class="flex justify-center space-x-4 mt-4">
+                <form class="flex flex-col justify-center">
+                  <input
+                    type="text"
+                    class="border-2 border-gray-200 rounded-md px-3 py-2"
+                    placeholder="Email address"
+                  />
+
+                  <button
+                    class="bg-blue-500 hover:bg-blue-600 px-4 py-3 text-base text-white font-semibold rounded-full mt-4"
+                    type="submit"
+                  >
+                    Subscribe
+                  </button>
+                </form>
               </div>
             </div>
           </div>
         </div>
-      </aside>
+      </div>
     </main>
 
     <footer
       class="text-stone-300 bg-stone-900 py-16 px-4 flex flex-col items-center justify-center"
     >
       <div class="flex justify-center space-x-4">
-        <a
-          href="#"
-          class="footer-icon"
+        <a href="#" class="footer-icon"
           ><i class="fa-brands fa-facebook"></i
         ></a>
 
-        <a
-          href="#"
-          class="footer-icon"
+        <a href="#" class="footer-icon"
           ><i class="fa-brands fa-square-twitter"></i
         ></a>
 
-        <a
-          href="#"
-          class="footer-icon"
+        <a href="#" class="footer-icon"
           ><i class="fa-brands fa-square-instagram"></i
         ></a>
       </div>
       <p class="text-stone-400 font-semibold mt-4">&copysr; West Blog 2022</p>
     </footer>
 
-    <script src="./app.js"></script>
+    <!-- <script type="module" src="./app.js"></script> -->
+    <script type="module" src="./main.js"></script>
   </body>
 </html>
