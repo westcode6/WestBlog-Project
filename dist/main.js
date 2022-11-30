@@ -33,13 +33,13 @@ function showBlogs() {
     );
 
     aLink.innerHTML = `
-          <img src="${blogData[i].image}"  class="w-full  lg:w-80 h-60 md:h-full object-cover object-center shadow" alt="" />
+          <img src="${blogData[i].image}"  class="w-full  lg:w-80 h-40 md:h-full object-cover object-center shadow" alt="" />
           <div class="blog-post w-full px-4 md:px-10 py-4 order-last lg:order-last">
-              <button class="bg-gray-100 text-gray-800 text-xs font-semibold px-4 py-2 rounded-md  mb-3">Data Base</button>
-              <h1 class="text-2xl font-bold curser-pointer capitalize hover:underline">
+              <button class="bg-gray-100 text-gray-500 text-xs font-semibold px-4 py-2 rounded-md  mb-3">Data Base</button>
+              <h1 class="text-xl md:text-2xl font-bold curser-pointer capitalize hover:underline">
               ${blogData[i].title}
               </h1>
-              <p class="mt-5 text-lg lg:text-base   text-stone-500">
+              <p class="mt-5  text-sm md:text-lg lg:text-base   text-stone-500">
               ${blogData[i].body}
               </p>
 
@@ -87,10 +87,10 @@ function openBlog(e) {
 
        div.innerHTML = `
      <div id="${singlePost[0].id}" class="">
-     <img src="${singlePost[0].image}"  class="w-full rounded-xl  lg:w-80 h-60 md:h-full object-cover object-center" alt="" />
+     <img src="${singlePost[0].image}"  class="w-full rounded-xl  lg:w-80 h-40 md:h-full object-cover object-center" alt="" />
      <div class="p-2">
      <h1 class="text-2xl font-bold text-gray-800 my-4">${singlePost[0].title}</h1>
-     <p class="mt-6 text-base">${singlePost[0].body}  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, rerum. Incidunt iusto numquam, quibusdam a maiores facere at sequi eum repellendus perspiciatis? Obcaecati molestiae dolor quam, culpa eius temp
+     <p class="mt-6 text-sm md:text-base">${singlePost[0].body}  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, rerum. Incidunt iusto numquam, quibusdam a maiores facere at sequi eum repellendus perspiciatis? Obcaecati molestiae dolor quam, culpa eius temp
 </p>
      </div>
    </div>

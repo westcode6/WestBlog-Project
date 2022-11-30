@@ -5,6 +5,7 @@ body {
 
     p {
       font-family: "Comfortaa", cursive;
+      @apply leading-10
     }
 
     .topic-container {

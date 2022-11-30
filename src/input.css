@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 
+p {
+  @apply leading-9
+
+}
 
 .slideIn {
   animation-duration: 1s;
